@@ -12,7 +12,7 @@
     <div class="uk-width-1-5"></div>
     <div class="uk-width-3-5">
         <div class="uk-text-center">
-            <h1>Concourse CI/CD Demo!!! 🍣🍻</h1>
+            <h1>Concourse CI/CD Demo APJ Rockstar team︎</h1>
             <p>
                 <img src="http://photos3.meetupstatic.com/photos/event/a/7/8/3/highres_448782883.jpeg" width="100">
             </p>
@@ -41,8 +41,8 @@
         </table>
 
         <p>
-            <a href="https://github.com/making/concourse-ci-demo"><i class="uk-icon-github"></i>
-                making/concourse-ci-demo</a>
+            <a href="https://github.com/myminseok/concourse-ci-demo-minseok"><i class="uk-icon-github"></i>
+                myminseok/concourse-ci-demo-minseok</a>
         </p>
     </div>
     <div class="uk-width-1-5"></div>
@@ -53,7 +53,7 @@
             $.getJSON('/info', function (res) {
                 $('#build-version').text(res.build.version);
                 $('#build-time').text(res.build.time).attr('datetime', res.build.time).timeago();
-                $('#commit-id').html('<a href="https://github.com/making/concourse-ci-demo/tree/' + res.git.branch + '">' + res.git.commit.id + '</a>');
+                $('#commit-id').html('<a href="https://github.com/myminseok/concourse-ci-demo-minseok/tree/' + res.git.branch + '">' + res.git.commit.id + '</a>');
                 $('#commit-time').text(res.git.commit.time).attr('datetime', res.git.commit.time).timeago();
             });
             $.getJSON('/env', function (res) {
